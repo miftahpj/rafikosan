@@ -37,7 +37,7 @@ useHead({
     {
       name: 'description',
       content:
-        'Komunitas kreatif anak muda Jakarta yang terdiri dari developer, designer, creator, dan strategist.'
+        'Komunitas kreatif anak muda unper yang terdiri dari developer, designer, creator, dan strategist.'
     }
   ]
 })

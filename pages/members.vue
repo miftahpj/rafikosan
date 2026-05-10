@@ -22,7 +22,7 @@
         class="text-[0.92rem] sm:text-[1rem]"
         style="color: var(--text-muted);"
       >
-        {{ members.length }} anggota aktif di Jakarta
+        {{ members.length }} anggota aktif di tasikamalya
       </p>
     </div>
 

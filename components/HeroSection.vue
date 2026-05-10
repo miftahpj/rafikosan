@@ -12,7 +12,7 @@
         class="w-2 h-2 rounded-full bg-[#00C3CC]"
         style="animation: pulse-dot 2s ease infinite;"
       />
-      {{ memberCount }} Anggota Aktif · Jakarta 2026
+      {{ memberCount }} Anggota Aktif · tasikamalya 2026
     </div>
 
     <!-- Headline -->

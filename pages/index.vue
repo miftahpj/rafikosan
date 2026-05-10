@@ -1,19 +1,44 @@
 <template>
-  <div>
+  <div class="overflow-hidden">
     <!-- Hero -->
-    <HeroSection :members="members" />
+    <HeroSection
+      :members="members"
+      :loading="loading"
+    />
 
     <!-- Members Grid -->
-    <MembersSection :members="members" :loading="loading" :error="error" />
+    <MembersSection
+      :members="members"
+      :loading="loading"
+      :error="error"
+    />
   </div>
 </template>
 
 <script setup lang="ts">
-definePageMeta({ layout: 'default' })
+definePageMeta({
+  layout: 'default'
+})
 
-const { members, loading, error, fetchMembers } = useMembers()
+const {
+  members,
+  loading,
+  error,
+  fetchMembers
+} = useMembers()
 
-onMounted(() => {
-  fetchMembers()
+onMounted(async () => {
+  await fetchMembers()
+})
+
+useHead({
+  title: 'RAFI KOSAN',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Komunitas kreatif anak muda Jakarta yang terdiri dari developer, designer, creator, dan strategist.'
+    }
+  ]
 })
 </script>

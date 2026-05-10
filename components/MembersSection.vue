@@ -9,7 +9,7 @@
         class="font-black leading-none tracking-[-2px]"
         style="font-size: clamp(2.5rem, 5vw, 4.5rem);"
       >
-        MEET THE<br>NOVA TEAM
+        MEET THE<br>RAFI KOSAN
       </h2>
     </div>
 
